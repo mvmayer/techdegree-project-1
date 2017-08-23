@@ -71,8 +71,8 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid maroon; /* chamged border color  */
-  transition: all .5s;
+  border: 3px solid maroon; /* changed border color from white to maroon ------- */
+  transition: all .7s; /* changed the transition time by .2s ---------*/
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -100,6 +100,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  letter-spacing: 1px;
 }
 .card:hover {
   border-color: #0399ff;
@@ -122,7 +123,29 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+/*  Added content styling --------------  */
+.hobby {
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  letter-spacing: 1px;
+  padding:50px 50px 50px 60px;
+  margin: auto;
+  max-width: 300px;
+  }
 
+.hobby h2 {
+  text-align: center;
+}
+
+.hobby li {
+  list-style-position: inside;
+}
+.hobby:hover {
+  border-color: #0399ff;
+}
 footer {
   width: 100%;
   min-height: 30px;
@@ -153,12 +176,6 @@ a.social {
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
-}
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
 }
 a.github {
   background-image: url(images/github.svg);

@@ -80,7 +80,7 @@ header .profile-image:hover {
 .tag {
   background-color: color|transparent|inherit;
   color: white;
-  padding-top: 60px;
+  padding-top: 50px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
@@ -90,6 +90,7 @@ header .profile-image:hover {
   background-color: color|transparent|inherit;
   color: white;
   font-size: 1.3em;
+  padding: 0 0 10px 0;
 }
 .card {
   margin: 30px;

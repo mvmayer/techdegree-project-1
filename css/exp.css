@@ -78,7 +78,7 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: color|transparent|inherit;
+  background-color: transparent;
   color: white;
   padding-top: 50px;
   border-radius: 5px;
@@ -87,7 +87,7 @@ header .profile-image:hover {
   letter-spacing: 2px;
 }
 .location {
-  background-color: color|transparent|inherit;
+  background-color: transparent;
   color: white;
   font-size: 1.3em;
   padding: 0 0 10px 0;
